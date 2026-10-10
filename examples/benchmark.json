@@ -1,0 +1,310 @@
+{
+  "system": "MatchForge",
+  "author": "晨星",
+  "version": "0.1.0",
+  "generated_at": "2026-10-10T17:23:59.533980+00:00",
+  "config": {
+    "n_nodes": 120,
+    "edge_prob": 0.5,
+    "noise_levels": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "seeds": [
+      7,
+      11,
+      23,
+      42,
+      123
+    ],
+    "main_noise": 0.3,
+    "gate_recovery_gain": 0.1,
+    "iso_recovery_min": 0.99
+  },
+  "aggregated": {
+    "random": {
+      "0.0": {
+        "recovery_mean": 0.003333333333333333,
+        "recovery_std": 0.004082482904638631,
+        "distortion_mean": 7057.6,
+        "score_mean": 3676.8,
+        "elapsed_mean": 0.00039
+      },
+      "0.1": {
+        "recovery_mean": 0.006666666666666666,
+        "recovery_std": 0.0062360956446232355,
+        "distortion_mean": 7048.4,
+        "score_mean": 2968.4,
+        "elapsed_mean": 0.0002686
+      },
+      "0.2": {
+        "recovery_mean": 0.006666666666666666,
+        "recovery_std": 0.0062360956446232355,
+        "distortion_mean": 6850.4,
+        "score_mean": 2312.4,
+        "elapsed_mean": 0.00033420000000000005
+      },
+      "0.3": {
+        "recovery_mean": 0.006666666666666666,
+        "recovery_std": 0.0062360956446232355,
+        "distortion_mean": 6523.6,
+        "score_mean": 1764.4,
+        "elapsed_mean": 0.000413
+      },
+      "0.4": {
+        "recovery_mean": 0.006666666666666666,
+        "recovery_std": 0.0062360956446232355,
+        "distortion_mean": 6028.0,
+        "score_mean": 1315.2,
+        "elapsed_mean": 0.0003418
+      }
+    },
+    "degree_profile": {
+      "0.0": {
+        "recovery_mean": 0.22166666666666668,
+        "recovery_std": 0.04102844541697058,
+        "distortion_mean": 6692.0,
+        "score_mean": 3859.6,
+        "elapsed_mean": 0.0001762
+      },
+      "0.1": {
+        "recovery_mean": 0.034999999999999996,
+        "recovery_std": 0.016996731711975948,
+        "distortion_mean": 6930.8,
+        "score_mean": 3027.2,
+        "elapsed_mean": 0.000185
+      },
+      "0.2": {
+        "recovery_mean": 0.023333333333333334,
+        "recovery_std": 0.01224744871391589,
+        "distortion_mean": 6733.6,
+        "score_mean": 2370.8,
+        "elapsed_mean": 0.0001806
+      },
+      "0.3": {
+        "recovery_mean": 0.021666666666666667,
+        "recovery_std": 0.01130388330520878,
+        "distortion_mean": 6387.6,
+        "score_mean": 1832.4,
+        "elapsed_mean": 0.0002534
+      },
+      "0.4": {
+        "recovery_mean": 0.013333333333333332,
+        "recovery_std": 0.011303883305208779,
+        "distortion_mean": 5882.4,
+        "score_mean": 1388.0,
+        "elapsed_mean": 0.0002456
+      }
+    },
+    "spectral": {
+      "0.0": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 0.0,
+        "score_mean": 7205.6,
+        "elapsed_mean": 0.0197896
+      },
+      "0.1": {
+        "recovery_mean": 0.011666666666666667,
+        "recovery_std": 0.011303883305208783,
+        "distortion_mean": 7093.2,
+        "score_mean": 2946.0,
+        "elapsed_mean": 0.024225000000000003
+      },
+      "0.2": {
+        "recovery_mean": 0.008333333333333335,
+        "recovery_std": 0.007453559924999299,
+        "distortion_mean": 6874.4,
+        "score_mean": 2300.4,
+        "elapsed_mean": 0.0217626
+      },
+      "0.3": {
+        "recovery_mean": 0.013333333333333332,
+        "recovery_std": 0.01545603082582617,
+        "distortion_mean": 6561.2,
+        "score_mean": 1745.6,
+        "elapsed_mean": 0.032486400000000006
+      },
+      "0.4": {
+        "recovery_mean": 0.008333333333333335,
+        "recovery_std": 0.00912870929175277,
+        "distortion_mean": 5999.2,
+        "score_mean": 1329.6,
+        "elapsed_mean": 0.0248278
+      }
+    },
+    "faq": {
+      "0.0": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 0.0,
+        "score_mean": 7205.6,
+        "elapsed_mean": 0.0221894
+      },
+      "0.1": {
+        "recovery_mean": 0.026666666666666665,
+        "recovery_std": 0.01433720877840438,
+        "distortion_mean": 4969.2,
+        "score_mean": 4008.0,
+        "elapsed_mean": 0.1356398
+      },
+      "0.2": {
+        "recovery_mean": 0.03333333333333333,
+        "recovery_std": 0.010540925533894597,
+        "distortion_mean": 4840.8,
+        "score_mean": 3317.2,
+        "elapsed_mean": 0.131419
+      },
+      "0.3": {
+        "recovery_mean": 0.011666666666666667,
+        "recovery_std": 0.011303883305208783,
+        "distortion_mean": 4570.0,
+        "score_mean": 2741.2,
+        "elapsed_mean": 0.1358586
+      },
+      "0.4": {
+        "recovery_mean": 0.011666666666666667,
+        "recovery_std": 0.004082482904638631,
+        "distortion_mean": 4207.2,
+        "score_mean": 2225.6,
+        "elapsed_mean": 0.14585140000000002
+      }
+    },
+    "grampa": {
+      "0.0": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 0.0,
+        "score_mean": 7205.6,
+        "elapsed_mean": 0.0216306
+      },
+      "0.1": {
+        "recovery_mean": 0.011666666666666667,
+        "recovery_std": 0.01,
+        "distortion_mean": 6894.8,
+        "score_mean": 3045.2,
+        "elapsed_mean": 0.0256944
+      },
+      "0.2": {
+        "recovery_mean": 0.01666666666666667,
+        "recovery_std": 0.011785113019775792,
+        "distortion_mean": 6788.0,
+        "score_mean": 2343.6,
+        "elapsed_mean": 0.024533199999999998
+      },
+      "0.3": {
+        "recovery_mean": 0.006666666666666666,
+        "recovery_std": 0.0062360956446232355,
+        "distortion_mean": 6364.4,
+        "score_mean": 1844.0,
+        "elapsed_mean": 0.0268058
+      },
+      "0.4": {
+        "recovery_mean": 0.01,
+        "recovery_std": 0.0062360956446232355,
+        "distortion_mean": 5992.0,
+        "score_mean": 1333.2,
+        "elapsed_mean": 0.026485799999999997
+      }
+    },
+    "matchfuse": {
+      "0.0": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 0.0,
+        "score_mean": 7205.6,
+        "elapsed_mean": 0.1166838
+      },
+      "0.1": {
+        "recovery_mean": 0.025,
+        "recovery_std": 0.017480147469502525,
+        "distortion_mean": 4958.0,
+        "score_mean": 4013.6,
+        "elapsed_mean": 0.6303784
+      },
+      "0.2": {
+        "recovery_mean": 0.025,
+        "recovery_std": 0.01178511301977579,
+        "distortion_mean": 4801.6,
+        "score_mean": 3336.8,
+        "elapsed_mean": 0.7251248
+      },
+      "0.3": {
+        "recovery_mean": 0.013333333333333332,
+        "recovery_std": 0.0135400640077266,
+        "distortion_mean": 4554.8,
+        "score_mean": 2748.8,
+        "elapsed_mean": 0.6621992000000001
+      },
+      "0.4": {
+        "recovery_mean": 0.006666666666666666,
+        "recovery_std": 0.0033333333333333335,
+        "distortion_mean": 4180.8,
+        "score_mean": 2238.8,
+        "elapsed_mean": 0.6647689999999999
+      }
+    },
+    "seeded": {
+      "0.0": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 0.0,
+        "score_mean": 7205.6,
+        "elapsed_mean": 0.010168199999999999
+      },
+      "0.1": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 1286.0,
+        "score_mean": 5849.6,
+        "elapsed_mean": 0.013509199999999999
+      },
+      "0.2": {
+        "recovery_mean": 1.0,
+        "recovery_std": 0.0,
+        "distortion_mean": 2351.2,
+        "score_mean": 4562.0,
+        "elapsed_mean": 0.016808399999999998
+      },
+      "0.3": {
+        "recovery_mean": 0.8616666666666667,
+        "recovery_std": 0.27666666666666667,
+        "distortion_mean": 3323.6,
+        "score_mean": 3364.4,
+        "elapsed_mean": 0.0519642
+      },
+      "0.4": {
+        "recovery_mean": 0.33666666666666667,
+        "recovery_std": 0.33518651524188736,
+        "distortion_mean": 4016.8,
+        "score_mean": 2320.8,
+        "elapsed_mean": 0.12119099999999998
+      }
+    }
+  },
+  "gates": {
+    "G1_iso_recovery_min": 0.99,
+    "G1_iso_pass": true,
+    "G1_iso_values": {
+      "spectral": 1.0,
+      "grampa": 1.0,
+      "faq": 1.0,
+      "matchfuse": 1.0,
+      "seeded": 1.0
+    },
+    "G2_main_noise": 0.3,
+    "G2_flagship": "seeded",
+    "G2_strongest_baseline": "degree_profile",
+    "G2_matchfuse_recovery": 0.8616666666666667,
+    "G2_baseline_recovery": 0.021666666666666667,
+    "G2_delta": 0.8400000000000001,
+    "G2_gate": 0.1,
+    "G2_pass": true,
+    "G3_max_abs_diff": 0.0,
+    "G3_pass": true
+  },
+  "demo_wall_sec": 19.182514300002367
+}
